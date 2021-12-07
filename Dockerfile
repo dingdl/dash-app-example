@@ -6,7 +6,7 @@ COPY requirements.txt .
 COPY src ./src
 
 RUN pip install --upgrade -v pip
-RUN pip install -r requirements-example.txt
+RUN pip install -r requirements.txt
 
 WORKDIR /code/src
 
